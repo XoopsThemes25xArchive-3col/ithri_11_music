@@ -1,0 +1,271 @@
+/* --------- Stylesheets  #B9D3EE   incorporation --------- */
+@import url("content.css");
+@import url("forms.css");
+@import url("templates.css");
+@import url("blocks.css");
+@import url("cbb.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+html {
+	
+	font-family:  Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	background:  url("../img/bg.jpg") top repeat-x;
+	
+		
+}
+body {
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	unicode-bidi: embed;
+	width: 895px;
+	margin: 0 auto;
+	background:  url("../img/content.jpg") top repeat-y;	
+    color:#242424;
+	
+
+}
+#xo-canvas {
+	width: 895px;
+	margin: 0 auto;
+	background: url("../img/header.jpg") no-repeat;
+}
+#xo-canvas-content {
+   padding-top:8px;
+}
+
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+  padding-top:40px;
+    
+}
+
+
+	
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;
+	
+	
+}
+/* --------- Header --------- */
+#xo-header {
+	
+	height: 212px;
+	
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding: 9px 33px 0 0;
+	padding-left:4px;
+	padding-top:10px;
+} 
+
+/* ---------- Bannières ---------- */
+#xo-banner {
+	color:							#666;
+	clear:							both;
+	width:                         895px;
+	height:							70px;
+	padding-top:                    80px;
+	position:						absolute;
+}
+
+#xo-banner.commercial {
+	height:							70px;
+}
+
+#xo-banner-ad {
+	position:						absolute;
+	top:								80px;
+	left:							304px;
+}
+#xo-banner-ad object, #xo-banner-ad img {
+	display:							block;
+}
+
+/* ---------------------- Dolphin nav ---------------------- */
+#dolphincontainer{
+	position:relative;
+	height:40px;
+	background:transparent;
+	width:100%;
+	font-family: Segoe UI, Tahoma, "Lucida Console", "courier new", monospace;
+	}
+
+#dolphinnav{
+	position:relative;
+	height:40px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:bold;
+	background:transparent;
+	padding:0 0 0 140px;
+	}
+
+#dolphinnav ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	float:left;
+	}
+
+#dolphinnav ul li{
+	display:block;
+	float:left;
+	margin:0 1px;
+	}
+
+#dolphinnav ul li a{
+	display:block;
+	float:left;
+	color:#000;
+	text-decoration:none;
+	padding:0 0 0 20px;
+	height:33px;
+	}
+
+#dolphinnav ul li a span{
+	padding:12px 20px 0 0;
+	height:60px;
+	float:left;
+	}
+
+#dolphinnav ul li a:hover{
+	color:#fff;
+	background:#000 ;
+	height:40px;
+	}
+
+#dolphinnav ul li a:hover span{
+	display:block;
+	width:auto;
+	cursor:pointer;
+	}
+
+#dolphinnav ul li a.current,#dolphinnav ul li a.current:hover{
+	color:#fff;
+	background:#000;
+	height:40px;
+	}
+
+#dolphinnav ul li a.current span{
+	display:block;
+	
+	width:auto;
+	background:transparent;
+	height:40px;
+	}
+/* ---------------------- END Dolphin nav ---------------------- */
+
+
+.xo-userbar form {
+	display:							inline;
+	padding:							0px;
+}
+.xo-userbar button {
+	margin: 							0px -3px;
+	border:							0px none;
+	padding:							0px;
+	background:						transparent none;
+}
+.xo-userbar button img {
+	width: 							20px;
+	height: 						20px;
+}
+.xo-userbar img {
+	width: 							20px;
+	height: 						20px;
+}
+.xo-userbar input {
+	color: 							black;
+	font-size: 						1.2em;
+	background-color: 			inherit;
+}
+
+.xo-userbar a {
+	color: 							#FF4500;
+	
+	text-decoration: 				none;
+	background-color: 			inherit;
+	
+	font-weight:					bold;
+}
+.xo-uname {
+	color: 							#87af7b;
+	font-size:						1.6em;
+	font-weight:					bold;
+	background: 					inherit;
+}
+
+
+.xo-userbar{
+	height: 32px;
+	text-align: left;
+	float: right;
+	padding-right:20px;
+	padding-top:40px;
+}
+
+#xo-search {
+	position:absolute;
+	top: 160px;
+	right: 210px;
+	font-size: 1em;
+
+}
+
+
+
+
+
+/* --------- Footer --------- */
+#xo-foottext {  
+	background:  #fff;
+	width: 878px;
+	height:56px;
+	border-top:4px solid #000;
+	background:  url("../img/footer.jpg")  repeat-x top;
+	margin: 0 auto;
+}
+
+
+
+.xo-foottext{
+	font-size: 1.1em;
+	color: #000;
+	text-align: center;	
+	
+	
+	
+}
+.xo-foottext a{
+	color: #000;
+	
+}
+.xo-foottext a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
